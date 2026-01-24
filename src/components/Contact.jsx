@@ -92,11 +92,10 @@ const handleSubmit = async (e) => {
               <div>
                 <h4 className="font-semibold">Address</h4>
                 <p className="text-gray-600 ">
-                 Sri mallikarjuna pg for gents,BTM 2ns stage ,4th main
-                  Karnataka 560076
+                 Rama Reddy Building, hulimangala,jigani, Electronic City, Anekal, Bengaluru, Karnataka 560100
                 </p>
                 <a
-                  href="https://maps.google.com"
+                  href="https://www.google.com/maps/search/Rama+Reddy+Building,+hulimangala,jigani,+Electronic+City,+Anekal,+Bengaluru,+Karnataka+560100/@12.8517013,77.6500269,15.5z?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
                   target="_blank"
                   className="inline-block mt-2 text-orange-600 border border-orange-600 px-4 py-1 rounded hover:bg-orange-600 hover:text-white transition"
                 >
@@ -110,7 +109,7 @@ const handleSubmit = async (e) => {
               <FiPhone className="text-orange-600 text-2xl mt-1" />
               <div>
                 <h4 className="font-semibold">Phone Number</h4>
-                <p className="text-gray-600">+91 83109 85053</p>
+                <p className="text-gray-600">+91 8309642005</p>
               </div>
             </div>
 
@@ -120,7 +119,7 @@ const handleSubmit = async (e) => {
               <div>
                 <h4 className="font-semibold">Email</h4>
                 <p className="text-gray-600">
-                  contact@mountainsquareconstruction.com
+                 aadityasquarecraftconstruction@gmail.com
                 </p>
               </div>
             </div>

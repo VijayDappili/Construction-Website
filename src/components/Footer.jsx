@@ -12,7 +12,7 @@ export default function Footer() {
         {/* LEFT: Logo + Description */}
         <div className="space-y-6">
           <Image
-            src="/images/harilogo.jpg"
+            src="/images/harilogo.png"
             alt="Mountain Square Construction"
             width={110}
             height={110}
@@ -80,17 +80,17 @@ export default function Footer() {
           {/* Center */}
           <div className="text-center">
             <a
-              href="mailto:contact@mountainsquareconstruction.com"
+              href="mailto:aadityasquarecraftconstruction@gmail.com"
               className="hover:underline"
             >
-              contact@mountainsquareconstruction.com
+              aadityasquarecraftconstruction@gmail.com
             </a>
           </div>
 
           {/* Right */}
           <div className="text-center md:text-right">
             <a href="tel:+918310985053" className="hover:underline">
-              +91 83109 85053
+              +91 8309642005
             </a>
           </div>
 

@@ -5,33 +5,47 @@ const projects = [
     items: [
       {
         name: "Luxury Villa",
-        location: "Bangalore",
+        location: "Hulimangala, Electronic City",
         status: "Completed",
         image: "/images/projects/indephouse/projects1.jpg",
       },
       {
         name: "Independent House",
-        location: "BTM Layout",
-        status: "Ongoing",
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+        status: "Completed",
         image: "/images/projects/indephouse/projects2.jpg",
       },
       {
         name: "Duplex Home",
-        location: "Jigani",
+        location: "Electronic City, Bengaluru ",
         status: "Completed",
         image: "/images/projects/indephouse/projects3.jpg",
       },
       {
         name: "Modern Residence",
-        location: "Whitefield",
+        location: "BSR layout, jigani",
         status: "Completed",
-        image: "/images/projects/indephouse/projects4.jpg",
+        image: "/images/projects/indephouse/projects5.jpg",
       },
       {
         name: "Budget Home",
-        location: "Yelahanka",
+        location: "Electronic City, Bengaluru",
+        status: "Completed",
+        image: "/images/projects/indephouse/projects4.jpg",
+      },
+
+      {
+        name: "Modern Residence",
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
         status: "Ongoing",
-        image: "/images/projects/indephouse/projects5.jpg",
+        image: "/images/projects/indephouse/projects6.jpg",
+      },
+
+      {
+        name: "Budget Home",
+        location: "BSR layout, jigani",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/projects7.jpg",
       },
     ],
   },
@@ -40,33 +54,33 @@ const projects = [
     category: "Interior Design & Execution",
     items: [
       {
-        name: "3BHK Interior",
-        location: "Electronic City",
+        name: "Modern Kitchen",
+        location: "BSR Layout, Jigani, Bengaluru",
         status: "Completed",
         image: "/images/projects/interior/interior1.jpg",
       },
       {
-        name: "Office Interior",
-        location: "HSR Layout",
-        status: "Ongoing",
+        name: "Stair Interior",
+        location: "Kanakpura Road, Thatagunni, Bengaluru",
+        status: "Completed",
         image: "/images/projects/interior/interior2.jpg",
       },
       {
-        name: "Modular Kitchen",
-        location: "JP Nagar",
+        name: "Home Interior",
+        location: "Royal Reed Layout, Electronic City",
         status: "Completed",
         image: "/images/projects/interior/interior3.jpg",
       },
       {
         name: "Living Room Design",
-        location: "Bannerghatta",
+        location: "Kalluballu, Jigani, Bengaluru",
         status: "Completed",
         image: "/images/projects/interior/interior4.jpg",
       },
       {
-        name: "Retail Interior",
-        location: "Indiranagar",
-        status: "Ongoing",
+        name: "Living Room Design",
+        location: "Hulimangala, Bengaluru",
+        status: "Completed",
         image: "/images/projects/interior/interior5.jpg",
       },
     ],
@@ -76,34 +90,46 @@ const projects = [
     category: "2D & 3D Architectural Planning",
     items: [
       {
-        name: "Villa Planning",
-        location: "Mysore",
-        status: "Completed",
+        
+        location: "Jigani, Bengaluru",
+         status: "Completed",
         image: "/images/projects/3d/architecture1.jpg",
       },
       {
-        name: "Apartment Planning",
-        location: "Tumkur",
-        status: "Completed",
+        
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+          status: "Completed",
         image: "/images/projects/3d/architecture2.jpg",
       },
       {
-        name: "Commercial Plan",
-        location: "Bangalore",
-        status: "Ongoing",
+        
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+         status: "Completed",
         image: "/images/projects/3d/architecture3.jpg",
       },
       {
-        name: "Farm House Plan",
-        location: "Mandya",
-        status: "Completed",
+         
+        location: "Jigani, Bengaluru",
+         status: "Completed",
         image: "/images/projects/3d/architecture4.jpg",
       },
       {
-        name: "Row House Plan",
-        location: "Hosur",
-        status: "Ongoing",
+        
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+        status: "Completed",
         image: "/images/projects/3d/architecture5.jpg",
+      },
+        {
+        
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+        status: "Completed",
+        image: "/images/projects/3d/architecture6.jpg",
+      },
+        {
+        
+        location: "Jigani, Bengaluru",
+        status: "Completed",
+        image: "/images/projects/3d/architecture7.jpg",
       },
     ],
   },
@@ -112,35 +138,30 @@ const projects = [
     category: "Renovation Projects",
     items: [
       {
-        name: "Old House Renovation",
-        location: "Jayanagar",
-        status: "Completed",
+        
+        location: "Bommanahalli, Begur",
+        status: "Ongoing",
         image: "/images/projects/rehouse/renovation2.jpg",
       },
       {
-        name: "Office Upgrade",
-        location: "MG Road",
+       
+        location: "Jigani, Bengaluru",
         status: "Ongoing",
         image: "/images/projects/rehouse/renovation3.jpg",
       },
       {
-        name: "Apartment Remodel",
-        location: "BTM",
-        status: "Completed",
+         
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+        status: "Ongoing",
         image: "/images/projects/rehouse/renovation4.jpg",
       },
       {
         name: "Kitchen Renovation",
         location: "Rajajinagar",
-        status: "Completed",
-        image: "/images/projects/rehouse/renovation4.jpg",
-      },
-      {
-        name: "Bathroom Upgrade",
-        location: "Basavanagudi",
         status: "Ongoing",
-        image: "/images/projects/rehouse/renovation2.jpg",
+        image: "/images/projects/rehouse/renovation5.jpg",
       },
+       
     ],
   },
 ];

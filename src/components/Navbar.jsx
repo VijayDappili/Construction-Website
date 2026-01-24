@@ -16,16 +16,28 @@ export default function Navbar() {
         {/* LEFT: Logo */}
         <div className="flex items-center gap-4">
           <Image
-            src="/images/harilogo.jpg"
+            src="/images/harilogo.png"
             alt="Hari Kumar Construction Logo"
             width={56}
             height={56}
             className="object-contain"
             priority
           />
-          <h1 className="hidden md:block text-2xl font-extrabold text-gray-900">
-            Hari Kumar <span className="text-yellow-400">Constructions</span>
-          </h1>
+      <h1 className="font-extrabold text-gray-900 leading-tight text-left">
+  {/* Line 1 */}
+  <span className="block text-base sm:text-lg md:text-2xl whitespace-nowrap">
+    Aaditya Prime
+  </span>
+
+  {/* Line 2 */}
+  <span className="block text-base sm:text-lg md:text-2xl text-yellow-400 whitespace-nowrap">
+    Craft Construction
+  </span>
+</h1>
+
+
+
+
         </div>
 
         {/* CENTER: Menu (Desktop) */}
@@ -41,12 +53,12 @@ export default function Navbar() {
         <div className="hidden md:flex flex-col items-end gap-1 text-sm font-serif">
           <div className="flex items-center gap-2 text-lg">
             <FiPhone className="text-yellow-300" />
-            <a href="tel:+918310985053">+91 83109 85053</a>
+            <a href="tel:+918310985053">+91 8309642005</a>
           </div>
           <div className="flex items-center gap-2 text-lg">
             <FiMail className="text-yellow-300" />
-            <a href="mailto:hariconstructions@gmail.com">
-              hariconstructions@gmail.com
+            <a href="mailto:aadityasquarecraftconstruction@gmail.com">
+              aadityasquarecraftconstruction@gmail.com
             </a>
           </div>
         </div>
