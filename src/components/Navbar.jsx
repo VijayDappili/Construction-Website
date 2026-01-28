@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-orange-600 shadow">
       {/* Top bar */}
-      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 py-0">
+      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-4 py-0">
 
         {/* LEFT: Logo */}
         <div className="flex items-center gap-2">
@@ -23,17 +23,18 @@ export default function Navbar() {
             className="object-contain"
             priority
           />
-      <h1 className="font-extrabold text-gray-900 leading-tight text-left">
+     <h1 className="font-extrabold text-gray-900 leading-tight text-left">
   {/* Line 1 */}
-  <span className="block text-base sm:text-lg md:text-2xl whitespace-nowrap">
+  <span className="block text-xl sm:text-2xl md:text-4xl whitespace-nowrap">
     Aaditya Square
   </span>
 
   {/* Line 2 */}
-  <span className="block text-base sm:text-lg md:text-2xl text-yellow-400 whitespace-nowrap">
+  <span className="block text-xl sm:text-2xl md:text-4xl text-yellow-400 whitespace-nowrap">
     Craft Construction
   </span>
 </h1>
+
 
 
 
