@@ -49,7 +49,7 @@ export default function AboutPage() {
             Who We Are
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Mountain Square Construction is committed to delivering high-quality
+            Aaditya Square Craft Construction is committed to delivering high-quality
             residential and commercial construction projects. We focus on
             precision, durability, and customer satisfaction at every stage.
           </p>

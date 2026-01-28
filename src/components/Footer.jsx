@@ -74,7 +74,7 @@ export default function Footer() {
 
           {/* Left */}
           <div className="text-center md:text-left">
-            © 2025 Mountain Square All rights reserved.
+            © 2025 Aaditya Square Craft Construction All rights reserved.
           </div>
 
           {/* Center */}

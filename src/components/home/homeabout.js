@@ -19,7 +19,7 @@ export default function HomeAbout() {
         </h2>
 
         <p className="mt-6 text-gray-700 leading-relaxed">
-          Hari Kumar Constructions is a trusted construction company delivering
+          Aaditya Square Craft Construction is a trusted construction company delivering
           high-quality residential and commercial projects. We focus on
           durability, transparency, and timely delivery.
         </p>

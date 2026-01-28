@@ -23,7 +23,7 @@ export default function Navbar() {
             className="object-contain"
             priority
           />
-     <h1 className="font-extrabold text-gray-900 leading-tight text-left">
+     <h1 className="font-extrabold text-gray-900 leading-tight text-left"> 
   {/* Line 1 */}
   <span className="block text-xl sm:text-2xl md:text-4xl whitespace-nowrap">
     Aaditya Square
@@ -90,12 +90,12 @@ export default function Navbar() {
             <div className="pt-4 text-sm text-center space-y-2">
               <div className="flex items-center justify-center gap-2">
                 <FiPhone />
-                <a href="tel:+918310985053">+91 83109 85053</a>
+                <a href="tel:+918310985053">+91 8309642005</a>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <FiMail />
-                <a href="mailto:hariconstructions@gmail.com">
-                  hariconstructions@gmail.com
+                <a href="mailto:aadityasquarecraftconstruction@gmail.com">
+                  aadityasquarecraftconstruction@gmail.com
                 </a>
               </div>
             </div>
