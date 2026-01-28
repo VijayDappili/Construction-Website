@@ -3,23 +3,23 @@ import Link from "next/link";
 
 const featuredProjects = [
   {
-    name: "Luxury Villa",
-    location: "Bangalore",
-    status: "Completed",
-    image: "/images/projects/indephouse/projects1.jpg",
-  },
+        name: "Luxury Villa",
+        location: "Hulimangala, Electronic City",
+        status: "Completed",
+        image: "/images/projects/indephouse/projects1.jpg",
+      },
   {
-    name: "3BHK Interior",
-    location: "HSR Layout",
-    status: "Completed",
-    image: "/images/projects/interior/interior2.jpg",
-  },
+        name: "Modern Kitchen",
+        location: "BSR Layout, Jigani, Bengaluru",
+        status: "Completed",
+        image: "/images/projects/interior/interior1.jpg",
+      },
   {
-    name: "Apartment Renovation",
-    location: "BTM Layout",
-    status: "Completed",
-    image: "/images/projects/rehouse/renovation3.jpg",
-  },
+        
+        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
+         status: "Completed",
+        image: "/images/projects/3d/architecture3.jpg",
+      },
 ];
 
 export default function HomeProjects() {

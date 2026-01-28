@@ -47,6 +47,18 @@ const projects = [
         status: "Ongoing",
         image: "/images/projects/indephouse/projects7.jpg",
       },
+       {
+        name: "PN Residence",
+        location: "HSR layout ,Bengaluru",
+        status: "Completed",
+        image: "/images/projects/indephouse/projects8.jpeg",
+      },
+       {
+        name: "Modern Residence",
+        location: "HSR layout ,Bengaluru",
+        status: "Completed",
+        image: "/images/projects/indephouse/projects9.jpeg",
+      },
     ],
   },
 

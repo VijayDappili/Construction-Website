@@ -54,10 +54,10 @@ export default function StatsSection() {
           {/* LEFT */}
           <div className="text-center lg:text-left space-y-4">
             <Image
-              src="/images/harilogo.jpg"
+              src="/images/aadityalogo.png"
               alt="Company Logo"
-              width={120}
-              height={120}
+              width={150}
+              height={150}
               className="mx-auto lg:mx-0"
             />
 

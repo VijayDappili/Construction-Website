@@ -11,22 +11,22 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-orange-600 shadow">
       {/* Top bar */}
-      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 py-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 py-0">
 
         {/* LEFT: Logo */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
           <Image
-            src="/images/harilogo.png"
+            src="/images/aadityalogo.png"
             alt="Hari Kumar Construction Logo"
-            width={56}
-            height={56}
+            width={150}
+            height={150}
             className="object-contain"
             priority
           />
       <h1 className="font-extrabold text-gray-900 leading-tight text-left">
   {/* Line 1 */}
   <span className="block text-base sm:text-lg md:text-2xl whitespace-nowrap">
-    Aaditya Prime
+    Aaditya Square
   </span>
 
   {/* Line 2 */}
@@ -41,12 +41,12 @@ export default function Navbar() {
         </div>
 
         {/* CENTER: Menu (Desktop) */}
-        <nav className="hidden md:flex justify-center gap-12 font-serif text-xl text-gray-700 whitespace-nowrap">
-          <Link href="/" className="hover:text-yellow-400">Home</Link>
-          <Link href="/about" className="hover:text-yellow-400">About</Link>
-          <Link href="/services" className="hover:text-yellow-400">Services</Link>
-          <Link href="/projects" className="hover:text-yellow-400">Projects</Link>
-          <Link href="/contact" className="hover:text-yellow-400">Contact Us</Link>
+        <nav className="hidden md:flex justify-center gap-12 font-serif text-xl text-yellow-400 whitespace-nowrap">
+          <Link href="/" className="hover:text-blue-700">Home</Link>
+          <Link href="/about" className="hover:text-blue-700">About</Link>
+          <Link href="/services" className="hover:text-blue-700">Services</Link>
+          <Link href="/projects" className="hover:text-blue-700">Projects</Link>
+          <Link href="/contact" className="hover:text-blue-700">Contact Us</Link>
         </nav>
 
         {/* RIGHT: Contact info (Desktop) */}

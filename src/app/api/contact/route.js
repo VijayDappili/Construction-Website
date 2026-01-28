@@ -1,40 +1,32 @@
- 
-
-export const runtime = "nodejs";
-
-import clientPromise from "@/lib/mongodb";
+import { NextResponse } from "next/server";
 
 export async function POST(req) {
   try {
-    console.log("📩 Contact API called");
-
     const body = await req.json();
-    console.log("📦 Received data:", body);
 
-    const { name, email, phone, message } = body;
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbwKOQovrh0BY91jM_4-DGMk11DSComHwy8Sb5h9b055g3nhCtrGidlXHJYQFarWKTs/exec",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(body),
+      }
+    );
 
-    const client = await clientPromise;
-    const db = client.db("hari");
+    if (!response.ok) {
+      throw new Error("Failed to send data to Google Sheets");
+    }
 
-    const result = await db.collection("contacts").insertOne({
-      name,
-      email,
-      phone,
-      message,
-      createdAt: new Date(),
-    });
-
-    console.log("✅ Inserted ID:", result.insertedId);
-
-    return new Response(
-      JSON.stringify({ success: true }),
-      { status: 201 }
+    return NextResponse.json(
+      { message: "Data saved to Google Sheets" },
+      { status: 200 }
     );
   } catch (error) {
-    console.error("❌ API ERROR:", error);
-
-    return new Response(
-      JSON.stringify({ error: error.message }),
+    console.error("API ERROR:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
       { status: 500 }
     );
   }

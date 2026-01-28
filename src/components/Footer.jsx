@@ -12,10 +12,10 @@ export default function Footer() {
         {/* LEFT: Logo + Description */}
         <div className="space-y-6">
           <Image
-            src="/images/harilogo.png"
+            src="/images/aadityalogo.png"
             alt="Mountain Square Construction"
-            width={110}
-            height={110}
+            width={150}
+            height={150}
             className="object-contain"
           />
           <p className="text-white leading-relaxed max-w-sm">
