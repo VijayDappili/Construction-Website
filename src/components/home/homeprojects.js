@@ -4,9 +4,9 @@ import Link from "next/link";
 const featuredProjects = [
   {
         name: "Luxury Villa",
-        location: "Hulimangala, Electronic City",
+        location: "Rachanahalli site number 18, Bengaluru",
         status: "Completed",
-        image: "/images/projects/indephouse/projects1.jpg",
+        image: "/images/projects/indephouse/p1.jpeg",
       },
   {
         name: "Modern Kitchen",

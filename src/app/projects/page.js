@@ -5,9 +5,9 @@ const projects = [
     items: [
       {
         name: "Luxury Villa",
-        location: "Hulimangala, Electronic City",
+        location: "Rachanahalli site number 18, Bengaluru",
         status: "Completed",
-        image: "/images/projects/indephouse/projects1.jpg",
+        image: "/images/projects/indephouse/p1.jpeg",
       },
       {
         name: "Independent House",
@@ -16,10 +16,10 @@ const projects = [
         image: "/images/projects/indephouse/projects2.jpg",
       },
       {
-        name: "Duplex Home",
-        location: "Electronic City, Bengaluru ",
+        name: "Appartment",
+        location: "Rachanahalli,balakotaiah appartment, Bengaluru ",
         status: "Completed",
-        image: "/images/projects/indephouse/projects3.jpg",
+        image: "/images/projects/indephouse/p3.jpeg",
       },
       {
         name: "Modern Residence",
@@ -59,6 +59,46 @@ const projects = [
         status: "Completed",
         image: "/images/projects/indephouse/projects9.jpeg",
       },
+       {
+        name: "Modern Residence",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Completed",
+        image: "/images/projects/indephouse/p4.jpeg",
+      },
+       {
+        name: "Modern Residence",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/p5.jpeg",
+      },
+       {
+        name: "Modern Residence",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/p6.jpeg",
+      },
+       {
+        name: "Modern Residence",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/p7.jpeg",
+      },
+       {
+        name: "Modern Residence",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/p8.jpeg",
+      },
+       {
+        name: "Appartment",
+        location: "Rachanahalli ,Bengaluru",
+        status: "Ongoing",
+        image: "/images/projects/indephouse/p9.jpeg",
+      },
+      
+
+      
+
     ],
   },
 
