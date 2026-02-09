@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Construction Company",
+  title: "Aaditya Square Craft Construction Company | House Construction in Bangalore",
   description: "Best construction company in Bangalore",
 };
 
