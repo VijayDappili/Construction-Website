@@ -21,12 +21,7 @@ const projects = [
         status: "Completed",
         image: "/images/projects/indephouse/p3.jpeg",
       },
-      {
-        name: "Modern Residence",
-        location: "BSR layout, jigani",
-        status: "Completed",
-        image: "/images/projects/indephouse/projects5.jpg",
-      },
+      
       {
         name: "Budget Home",
         location: "Electronic City, Bengaluru",
