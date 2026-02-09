@@ -185,30 +185,42 @@ const projects = [
     category: "Renovation Projects",
     items: [
       {
-        
-        location: "Bommanahalli, Begur",
-        status: "Ongoing",
-        image: "/images/projects/rehouse/renovation2.jpg",
+         name: "Water Proofing Work",
+         location: "  Bengaluru",
+        status: "Completed",
+
+        image: "/images/projects/rehouse/r1.jpeg",
       },
       {
-       
-        location: "Jigani, Bengaluru",
-        status: "Ongoing",
-        image: "/images/projects/rehouse/renovation3.jpg",
+        name: "Water Proofing Work",
+        location: "  Bengaluru",
+        status: "Completed",
+        image: "/images/projects/rehouse/r2.jpeg",
       },
       {
-         
-        location: "Royal reed layout, Podu, Hulimangala, Electronic City",
-        status: "Ongoing",
-        image: "/images/projects/rehouse/renovation4.jpg",
+          name: "Tiles laying terrace",
+        location: "  Bengaluru",
+        status: "Completed",
+        image: "/images/projects/rehouse/r3.jpeg",
       },
-      {
-        name: "Kitchen Renovation",
-        location: "Rajajinagar",
-        status: "Ongoing",
-        image: "/images/projects/rehouse/renovation5.jpg",
+       {
+          name: "Pop cornice fall celing",
+        location: "  Bengaluru",
+        status: "Completed",
+        image: "/images/projects/rehouse/r4.jpeg",
       },
-       
+        {
+          name: "Repaint Work",
+        location: "  Bengaluru",
+        status: "Completed",
+        image: "/images/projects/rehouse/r5.jpeg",
+      },
+       {
+          name: "Repaint Work",
+        location: "  Bengaluru",
+        status: "Completed",
+        image: "/images/projects/rehouse/r6.jpeg",
+      },
     ],
   },
 ];
